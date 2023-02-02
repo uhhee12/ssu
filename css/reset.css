@@ -1,0 +1,219 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+button,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+input,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+textarea,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+    -webkit-text-size-adjust: none;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+address,
+em {
+    font-style: normal;
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+a,
+a:active,
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+input,
+textarea {
+    -webkit-border-radius: 0;
+    -webkit-appearance: none;
+}
+
+button,
+input,
+select,
+textarea {
+    border: 0 none;
+    border-radius: 0;
+    background-color: transparent;
+    vertical-align: middle;
+    cursor: pointer;
+    outline: none;
+}
+img {
+    vertical-align: top;
+}
+input[type=button],
+input[type=email],
+input[type=password],
+input[type=reset],
+input[type=search],
+input[type=submit],
+input[type=tel],
+input[type=text] {
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+a:active,
+a:hover {
+    text-decoration: none;
+}
+caption,
+legend {
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+input:focus,
+select:focus,
+textarea:focus {
+    outline-width: thin;
+    outline: none;
+}
+input::-ms-clear {
+    display: none;
+}
+input::-webkit-contacts-auto-fill-button {
+    display: none !important;
+    position: absolute;
+    right: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+body {
+    -webkit-text-size-adjust: none;
+}
+body,
+button,
+input,
+pre,
+select,
+table,
+textarea {
+    color: #000;
+}
+
+/* 버튼지우는 reset */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
